@@ -1,0 +1,36 @@
+<!DOCTYPE html> <!-- Declara el tipo de documento, en este caso HTML5 -->
+<html lang="es"> <!-- Establece el idioma de la página como español -->
+<head>
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8, que soporta caracteres especiales como los acentos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea responsiva en dispositivos móviles -->
+    <title>Tablas de Multiplicar</title> <!-- Define el título de la página que aparecerá en la pestaña del navegador -->
+    <style>
+        /* Estilos CSS para la apariencia de la página */
+        body {
+            font-family: Arial, sans-serif; /* Define la fuente del texto */
+            margin: 20px; /* Agrega un margen de 20px alrededor del contenido */
+        }
+        h2 {
+            color: hsl(162, 29%, 24%); /* Cambia el color de los títulos h2 */
+        }
+        .tabla {
+            margin-bottom: 20px; /* Agrega un margen de 20px en la parte inferior de cada tabla */
+            padding: 10px; /* Agrega un poco de espacio interior en cada tabla */
+            background-color: hsl(0, 0%, 96%); /* Establece un color de fondo gris claro */
+            border-radius: 5px; /* Redondea las esquinas de la tabla */
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablas de Multiplicar con Diferentes Ciclos</h1> <!-- Título principal de la página -->
+    
+    <!-- Divs donde se van a insertar las tablas de multiplicar -->
+    <div id="tabla-for" class="tabla"></div>
+    <div id="tabla-for-in" class="tabla"></div>
+    <div id="tabla-for-of" class="tabla"></div>
+    <div id="tabla-while" class="tabla"></div>
+    <div id="tabla-do-while" class="tabla"></div>
+
+    <script src="Ciclos/js/ciclos.js"></script> <!-- Enlaza el archivo JavaScript donde se encuentran las funciones para generar las tablas -->
+</body>
+</html>
