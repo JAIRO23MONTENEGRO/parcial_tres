@@ -35,7 +35,6 @@ selectMarca.addEventListener('change', function() {
 
     // Cambiar la imagen de fondo
     document.getElementById('fondoMarca').style.backgroundImage = `url(${marcaInfo.fondo})`;  
-    //document.getElementById('fondoMarca').style.opacity=0.5;
 
 
     resultadoDiv.innerHTML = `
