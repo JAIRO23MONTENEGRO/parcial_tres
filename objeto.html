@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: beige;">Buscador de Marcas de Autos</title>
+    <style>
+        /* Estilos para el logotipo y la descripción */
+        .logo {
+            max-width: 250px;
+        }
+        .descripcion {
+            font-style: italic;
+            color: azure;
+            font-size: 40px;
+            
+        }
+        .fondo{
+            background-color: rgba(244, 240, 240, 0.5);  
+            opacity:initial;
+            size: 800px;
+        }
+        .anio{
+            font-style: italic;
+            color: azure;
+            font-size: 40px;
+            background-color: rgba(0, 0, 0, 0.5);             
+        }
+    </style>
+    <img id="logo" src="logos/pag_super.jpg" alt="..." background-color: rgba(0, 0, 0, 0.5);>
+</head>
+<body id="fondoMarca">
+
+    <h1 style="color: rgb(210, 219, 180);">Buscador de Marcas de Autos</h1>
+    <label for="marca" style="color: rgb(101, 99, 57); font-size: 20px;">Selecciona una marca:</label>
+    <select id="marca" style="border: 100px; color:  #2e2d21;">
+        <option value="ford">Ford</option>
+        <option value="chevrolet">Chevrolet</option>
+        <option value="toyota">Toyota</option>
+        <option value="honda">Honda</option>
+    </select>
+
+    <div id="resultado">
+        <!-- Aquí se mostrará el logotipo y la descripción -->
+    </div>
+
+    <script src="resources/js/appObjeto.js"></script>
+</body>
+</html>
