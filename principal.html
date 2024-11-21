@@ -15,7 +15,7 @@
             margin: 10px;
             font-size: 16px;
             cursor: pointer;
-            background-color: #add8e6; 
+            background-color: #add8e6;
             border: none;
             border-radius: 5px;
         }
@@ -27,33 +27,25 @@
             font-size: 14px;
             color: #555;
         }
-        .entrada-numero {
-            margin: 20px;
-        }
     </style>
 </head>
 <body>
-    <h1>EJEMPLOS DE CICLOS CON LAS TABLAS DE MULTIPLICAR</h1>
-    <p>A continuación tenemos los ejemplos de tablas de multiplicar utilizando diferentes ciclos en JavaScript:</p>
-
-    <div class="entrada-numero">
-        <label for="numero">Ingrese un número para multiplicar:</label>
-        <input type="number" id="numero" value="6">
-        <button onclick="mostrarTablas()">Mostrar Tablas</button>
-    </div>
-
-    <div id="tablas">
-        <div id="tabla-for"></div>
-        <div id="tabla-for-in"></div>
-        <div id="tabla-for-of"></div>
-        <div id="tabla-while"></div>
-        <div id="tabla-do-while"></div>
-    </div>
+    <h1>Bienvenido a la Página Principal</h1>
+    <p>A continuación tenemos los ejemplos de:</p>
+    
+    <button onclick="irAPagina('http://127.0.0.1:5501/ciclos.html')">CICLOS</button>
+    <button onclick="irAPagina('pagina2.html')">CADENAS</button>
+    <button onclick="irAPagina('pagina3.html')">METODOS</button>
 
     <footer>
         Este proyecto está diseñado para afianzar los conceptos de JavaScript y HTML.
     </footer>
 
     <script src="Ciclos/js/ciclos.js"></script>
+    <script>
+        function irAPagina(pagina) {
+            window.location.href = pagina;
+        }
+    </script>
 </body>
 </html>

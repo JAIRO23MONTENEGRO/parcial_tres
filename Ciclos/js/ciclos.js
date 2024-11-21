@@ -66,3 +66,6 @@ document.addEventListener("DOMContentLoaded", function() {
     mostrarTablaWhile(); 
     mostrarTablaDoWhile(); 
 });
+function irAPagina(pagina) {
+    window.location.href = pagina;
+}
