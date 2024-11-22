@@ -1,6 +1,6 @@
 const marcas = {
     ford: {
-        logo: 'logos/logo_ford.jpg',
+        logo: 'logos/logo_ford2.png',
         fondo:'logos/ford_car.jpg',
         descripcion: 'Ford Motor Company es una empresa automotriz estadounidense fundada en 1903. Conocida por modelos icónicos como el Ford Mustang y la Ford F-150.',
         año: 1903
@@ -13,7 +13,7 @@ const marcas = {
         año: 1911
     },
     toyota: {
-        logo: 'logos/logo_toyota.jpg',
+        logo: 'logos/logo_toyota2.png',
         fondo:'logos/toyota_car.jpg',
         descripcion: 'Toyota Motor Corporation es una empresa japonesa líder en la industria automotriz. Su Toyota Corolla es uno de los autos más vendidos en todo el mundo.',
         año: 1937
